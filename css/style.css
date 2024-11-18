@@ -2,7 +2,7 @@ h1 {
     font-size: 50px;
 }
 
-#header-container {
+#main-header {
     /*Header global properties*/
     height: 180px;
 
@@ -18,6 +18,8 @@ h1 {
 
 #main-logo img {
     width: 300px;
+    margin-top: 80px;
+    margin-left: 10px;
 }
 
 #journal-name {
