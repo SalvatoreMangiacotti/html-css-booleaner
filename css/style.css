@@ -1,0 +1,36 @@
+#header-container {
+    height: 180px;
+
+    /*solid background color*/
+    background-color: #4ea1ff;
+
+    /*background pattern image*/
+    background-image: url("../images/pattern.png");
+    background-repeat: repeat;
+    background-size: 700px 350px;
+    background-position: top center;
+}
+
+#main-logo img {
+    width: 300px;
+}
+
+#journal-name {
+    color: #23c1ec;
+}
+
+.text-highlight {
+    background-color: #ffff0c;
+}
+
+#table-section {
+    text-align: left;
+}
+
+#list-header {
+    background-color: #24a8e2;
+}
+
+.row-background {
+    background-color: #b1e6f2;
+}
