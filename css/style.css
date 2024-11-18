@@ -1,3 +1,7 @@
+h1 {
+    font-size: 50px;
+}
+
 #header-container {
     /*Header global properties*/
     height: 180px;
@@ -44,7 +48,7 @@
 #footerCard-1 {
     /*Card global properties*/
     height: 180px;
-    color:rgba(255, 255, 255, 0.95);
+    color: rgba(255, 255, 255, 0.95);
 
     /*Background image*/
     background-image: url("../images/monitor.jpg");
@@ -54,7 +58,7 @@
 #footerCard-2 {
     /*Card global properties*/
     height: 180px;
-    color:rgba(255, 255, 255, 0.95);
+    color: rgba(255, 255, 255, 0.95);
 
     /*Background image*/
     background-image: url("../images/graph.jpg");
