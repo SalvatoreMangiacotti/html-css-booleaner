@@ -1,4 +1,5 @@
 #header-container {
+    /*Header global properties*/
     height: 180px;
 
     /*solid background color*/
@@ -27,10 +28,35 @@
     text-align: left;
 }
 
-#list-header {
+#table-headers {
     background-color: #24a8e2;
+    text-wrap: nowrap;
 }
 
 .row-background {
     background-color: #b1e6f2;
+}
+
+#related-content {
+    color: #7d7d7d;
+}
+
+#footerCard-1 {
+    /*Card global properties*/
+    height: 180px;
+    color:rgba(255, 255, 255, 0.95);
+
+    /*Background image*/
+    background-image: url("../images/monitor.jpg");
+    background-repeat: no-repeat;
+}
+
+#footerCard-2 {
+    /*Card global properties*/
+    height: 180px;
+    color:rgba(255, 255, 255, 0.95);
+
+    /*Background image*/
+    background-image: url("../images/graph.jpg");
+    background-repeat: no-repeat;
 }
