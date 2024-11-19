@@ -1,5 +1,5 @@
 /*Header*/
-#main-header {
+header {
     /*Global settings*/
     height: 180px;
 
@@ -9,7 +9,7 @@
     background-position: 10% top;
 }
 
-#logo img {
+header img {
     width: 200px;
 }
 
@@ -18,17 +18,18 @@ h1 {
     font-size: 50px;
 }
 
-#hero-header h2 {
-    font-weight: 500;
-}
-
-#journal-name {
+#hero-section span {
     color: rgb(25, 205, 200);
 }
 
 /*Main Section*/
 .highlight {
     background-color: yellow;
+}
+
+/*Main Table*/
+#mainSection-table table{
+    border-collapse: collapse;
 }
 
 #table-headers {
@@ -46,22 +47,16 @@ h1 {
     color: gray;
 }
 
-#footerCard-1 {
-    /*Global settings*/
+.card-background {
     height: 200px;
-
-    /*Background settings*/
-    background-image: url("../images/monitor.jpg");
     background-repeat: no-repeat;
     color: white;
 }
 
-#footerCard-2 {
-    /*Global settings*/
-    height: 200px;
+#footerCard-1 {
+    background-image: url("../images/monitor.jpg");
+}
 
-    /*Background settings*/
+#footerCard-2 {
     background-image: url("../images/graph.jpg");
-    background-repeat: no-repeat;
-    color: white;
 }
